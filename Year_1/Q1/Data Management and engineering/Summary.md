@@ -1,4 +1,4 @@
-# 模块1:图结构与节点表示（Graph Representation & Embedding）
+### 模块1:图结构与节点表示（Graph Representation & Embedding）
 * Random Walk optimization
   * 模拟节点之间的游走，学习节点之间的连接概率
   * 应用于图嵌入方法如DeepWalk, node2vec.
@@ -17,14 +17,14 @@
   * 图卷积网络（GCN）也有类似特点
   
 ---
-# 模块2:数据可视化(Data Visualization Techniques)
+### 模块2:数据可视化(Data Visualization Techniques)
 * Bar Chart（柱状图）：显示类别型变量的分布
 * Scatterplot（散点图）：显示两个数值变量之间的关系，用于寻找**相关性**
 * Connected Scatterplot： 相邻点用线连接，显示时间序列或趋势
 * SPLOM(Scatterplot Matrix):多变量散点图矩阵，显示所有变量两两之间的关系
 * Parallel Coordinates Plot(PCP):高维数据可视化，每个维度是一条轴，记录为一条穿过多轴的线。**轴顺序可影响可读性**
 ---
-# 模块3: 降维与高维可视化(Dimensionality Reduction & Manifold Learning)
+### 模块3: 降维与高维可视化(Dimensionality Reduction & Manifold Learning)
 * PCA（主成分分析）
   * 线形方法，找到最大方差方向
   * 适用于数据较线形的降维
@@ -35,7 +35,7 @@
   * 如Isomap，LLE
   * 假设高维数据分布在低维锥流形上，尝试“展平”结构
 ---
-# 模块4: 多维索引结构(Multi-Dimensional Index Structures)
+### 模块4: 多维索引结构(Multi-Dimensional Index Structures)
 * kd-Tree
   * 二叉树，内节点保存分裂值，叶子节点保存数据
   * 插入时可能需要向上分裂
@@ -47,7 +47,7 @@
   * 所有数据都存储在叶节点，内节点之做导航
   * 支持范围查询，顺序访问
 ---
-# 模块5: 并行数据库系统与分布式查询(Parallel Databases & Distributed Querying)
+### 模块5: 并行数据库系统与分布式查询(Parallel Databases & Distributed Querying)
 * 并行架构
   * Shared Memory：多个CPU，共享内存
   * Shared Disk：多个节点，共享磁盘
@@ -68,7 +68,7 @@
   * **矩阵乘法**是关键操作
   * 按row/column切分矩阵进行分布式计算
 ---
-# 模块6:信息检索与索引结构(Information Retrieval & Indexing)
+### 模块6:信息检索与索引结构(Information Retrieval & Indexing)
 * Tokenization:将文本拆分为基本单元（词语，符号）
 * Posting List：记录每个词在哪些文档中出现
 * Lexicon/Dictionary
@@ -76,7 +76,7 @@
   * 可是hash，B+Tree实现
 * Boolean Retrieval：使用**AND**,**OR**,**NOT**组合关键词检索
 ---
-# 模块7:信息检索评估指标(IR Evaluation Metrics)
+### 模块7:信息检索评估指标(IR Evaluation Metrics)
 * Precision(查准率)：正确结果数/检索结果总数
 * Recall(差全率)： 正确结果数/实际相关文档数
 * Hit@K：检索前K个结果中至少有一个相关的（1 or 0）
